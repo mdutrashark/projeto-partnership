@@ -2,20 +2,19 @@
 
 ## Objetivo
 
-Este repositório é destinado ao desenvolvimento site de gerenciamento de pontos com uma LP para apresentação da empresa e do produto Partnership para o projeto da **PlugowTech**. O projeto inclui desenvolvimento de front-end em HTML/CSS e JavaScript, back-end em Node.js, e banco de dados a definir.
+Este repositório é destinado ao desenvolvimento site de gerenciamento de pontos com uma LP para apresentação da empresa e do produto Partnership para o projeto da **PlugowTech**. O projeto inclui desenvolvimento de front-end em HTML/CSS e JavaScript, back-end em Node.js, e banco de dados SQLite.
 
 
-Criar um site e uma landing page que apresente o projeto a empresa PlugowTech e o programa Partnership, com informações atrativas e uma interface amigável. A página deve permitir interação básica com o back-end para coleta e exibição de dados dinâmicos e possivel integração com o sistema Partnership. 
+Criar um site e uma landing page que apresente o projeto a empresa PlugowTech e o programa Partnership, com informações atrativas e uma interface amigável. A página deve permitir interação básica com o back-end para coleta e exibição de dados dinâmicos. 
 
 ## Tecnologias utilizadas
 
-- **Front-end:** HTML, CSS, JavaScript, Biblioteca a definir 
+- **Front-end:** HTML, CSS, JavaScript, React 
 - **Back-end:** Node.js, Express.js
-- **Banco de Dados:** A definir
-- **Controle de Versão:** Git
+- **Banco de Dados:** SQLite
+- **Controle de Versão:** Git e GitHub
 - **Gerenciamento de Dependências:** npm
 - **Ferramentas de Design UX/UI:** Figma
-- **QA (Controle de Qualidade):** A definir 
 
 ## Estrutura do projeto
 
@@ -38,9 +37,6 @@ projeto-plugowtech/
 ├── database/
 │   ├── schema           # Esquema do banco de dados (a definir banco de dados)
 │   └── seed             # Dados iniciais (a definir banco de dados)
-├── qa/
-│   ├── tests/           # Testes automatizados
-│   └── README.md        # Instruções para execução de testes
 ├── .gitignore
 ├── README.md            # Documentação do projeto, Instruções para contribuição e Convenção de branches
 ```
@@ -50,7 +46,7 @@ projeto-plugowtech/
 - Git: Controle de versão
 - Node.js: (v14 ou superior) - Plataforma de execução - JavaScript
 - npm: Gerenciador de pacotes para Node.js
-- Banco de dados a definir 
+- Banco de dados SQLite
 - Editor de Código: Visual Studio Code
 
 ## Passos para configuração do fluxo de trabalho
