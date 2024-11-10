@@ -100,4 +100,3 @@ Estrutura de Branches
 - **`database`:** Gerenciamento do banco de dados.
 - **`feature/frontend-nome-da-feature`:** Para novas funcionalidades. # feature/nome da stack-nome da feature
 - **`bugfix/nome-do-bug`:** Para correções de bugs.
-- **`qa/[nome-do-teste]`:** Branch para desenvolvimento e execução de testes automatizados.
