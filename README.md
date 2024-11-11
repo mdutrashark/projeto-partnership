@@ -22,23 +22,42 @@ Criar um site e uma landing page que apresente o projeto a empresa PlugowTech e 
 projeto-plugowtech/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml       # Configuração do GitHub Actions
+│       └── ci.yml               # Configuração do GitHub Actions
 ├── uxui/
-│   ├── wireframes/      # Protótipos e wireframes
-│   └── design/          # Arquivos de design (Figma, Sketch, etc.)
+│   ├── wireframes/              # Protótipos e wireframes
+│   └── design/                  # Arquivos de design (Figma, Sketch, etc.)
 ├── frontend/
-│   ├── index.html       # Página principal da landing page
-│   ├── styles.css       # Estilos CSS
-│   └── app.js           # Lógica JavaScript
+│   ├── public/
+│   │   ├── index.html           # Página principal da landing page
+│   │   └── favicon.ico          # Ícone do site
+│   ├── src/
+│   │   ├── assets/              # Imagens, fontes e outros assets
+│   │   ├── components/          # Componentes reutilizáveis
+│   │   ├── pages/               # Páginas do projeto
+│   │   ├── routes/              # Configuração das rotas
+│   │   ├── services/            # Serviços para chamadas de API
+│   │   ├── App.js               # Componente principal do React
+│   │   └── index.js             # Arquivo principal de entrada
+│   └── package.json             # Dependências do frontend
 ├── backend/
-│   ├── server.js        # Servidor Node.js
-│   └── routes/
-│       └── api.js       # Rotas da API
-├── database/
-│   ├── schema           # Esquema do banco de dados (a definir banco de dados)
-│   └── seed             # Dados iniciais (a definir banco de dados)
+│   ├── config/
+│   │   └── config.js            # Configurações gerais do projeto
+│   ├── controllers/             # Controladores das rotas da API
+│   ├── database/
+│   │   ├── schema/              # Esquema do banco de dados
+│   │   ├── seed/                # Dados iniciais do banco
+│   │   └── index.js             # Configuração de conexão ao banco de dados
+│   ├── middleware/              # Middlewares de autenticação, etc.
+│   ├── routes/
+│   │   ├── api.js               # Rotas da API
+│   │   └── index.js             # Arquivo principal de rotas
+│   ├── utils/
+│   │   └── helpers.js           # Funções auxiliares
+│   ├── server.js                # Servidor Node.js principal
+│   └── package.json             # Dependências do backend
 ├── .gitignore
-├── README.md            # Documentação do projeto, Instruções para contribuição e Convenção de branches
+├── README.md                    # Documentação do projeto, instruções e convenções de branches
+
 ```
 
 ## Configuração do ambiente de desenvolvimento
