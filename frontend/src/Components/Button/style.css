@@ -1,0 +1,35 @@
+button{
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 15px;
+    height: 45px;
+    transition: background-color 0.3s ease;
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
+/* Login */
+
+.login{
+    background-color: #ffd900 ;
+    color: black;
+    width: 150px;
+}
+
+/* cadastro */
+
+.singUp{
+    background-color: #af9d34 ;
+    color: rgb(255, 255, 255);
+}
+
+/* contato */
+
+.contact{
+    background-color: #000000 ;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
