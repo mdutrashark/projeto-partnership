@@ -53,5 +53,14 @@ li:hover {
 
 .social img{
     margin: 0 10px;
+    cursor: pointer;
+}
+
+button{
+    transition: .8s;
+}
+
+button:hover{
+    transform: scale(.9);
 }
 
