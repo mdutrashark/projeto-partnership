@@ -5,6 +5,9 @@ footer{
     background-color: #AF9D34;
     color: #ffff;
     height: 502px;
+    width: auto;
+    padding: 0 110px 0 110px;
+
 }
 
 .title-content{
@@ -26,6 +29,10 @@ footer{
     font-size: 18px;
     padding-top: 15px;
     bottom: 25px;
+}
+
+#vamos{
+    color: #ffff;
 }
 
 .copyright{

@@ -12,7 +12,7 @@ export function Footer(){
         <footer>
             <div className='contact-container'>
                 <div className='title-content'>
-                    <p className='title-contact'><b>VAMOS</b><br />CONVERSAR</p>
+                    <p className='title-contact'><b id='vamos'>VAMOS</b><br />CONVERSAR</p>
                     <img className='bar' src={titleBar} alt="bar-icon" />
                 </div>
                 

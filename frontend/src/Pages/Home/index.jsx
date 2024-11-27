@@ -1,5 +1,6 @@
 import { Header } from "../../Components/Header"
 import { Footer } from "../../Components/Footer"
+import { Experience } from "../../Components/Experience"
 
 export function Home(){
     return(
@@ -11,10 +12,7 @@ export function Home(){
             <br />
             Campanha
             <br />
-            Experiências
-            <br />
-            Contatos
-            <br />
+            <Experience/>
             <Footer/>
             
         </div>

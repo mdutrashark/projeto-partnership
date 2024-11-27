@@ -16,7 +16,7 @@ export function Header(){
                     <li>Home</li> 
                     <li>Sobre</li>
                     <li>Campanha</li>
-                    <li>Premiação</li>
+                    <li>Experiências</li>
                     <li>Contatos</li>
                 </ul>
              </nav>

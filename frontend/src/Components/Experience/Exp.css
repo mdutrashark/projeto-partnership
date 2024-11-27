@@ -1,0 +1,160 @@
+.exp-container{
+    background-color: #000000;
+    height: 1000px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    overflow: hidden;
+    padding: 100px 0 0 50px;
+}
+
+/*LEFT SIDE COMPONENTS*/
+
+.left-side-content{
+    position: relative;
+    bottom: 3rem;
+}
+
+.left-side-title{
+    color: #AF9D34;
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 50px;
+    margin-bottom: 5px;
+    width: 650px;
+    height: 100px;
+}
+
+.left-copy{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 15px;
+
+}
+
+.left-side-img{
+    width: 480px;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.travel-img{
+    width: 480px;
+    height: 512px;
+}
+
+#left-seta{
+    width: 30px;
+    height: 35px;
+}
+
+
+#right-seta{
+    width: 30px;
+    height: 35px;
+}
+
+
+#seta-esquerda{
+    display: flex;
+    align-items: center;
+    right: 29rem;
+}
+
+#seta-esquerda:hover{
+    transform: translateX(-5px);
+    transition-duration: .2s;
+} 
+
+#seta-direita{
+    display: flex;
+    align-items: center;
+    right: 5rem;
+}
+
+#seta-direita:hover{
+    transform: translateX(5px);
+    transition-duration: .2s;
+}
+
+
+.setas{
+    position: relative;
+    width: 40px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .10s;
+}
+  
+.setas:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.left-side-text{
+    margin-bottom: 5rem;
+}
+
+
+/*RIGHT SIDE COMPONENTS*/
+
+.right-side-content{
+    position: relative;
+    bottom: 5.3rem;
+    left: 2rem;
+}
+
+.right-side-title{
+    color: #AF9D34;
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 50px;
+    width: 680px;
+    height: 52px;
+}
+
+.right-copy{
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+
+.sub-copy{
+    font-weight: bolder;
+}
+
+
+.right-side-img{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+    position: relative;
+    top: 3rem;
+    right: 30px;
+    width: 500px;
+    height: 300px;
+
+}
+
+.img-group{
+    width: 250px;
+    height: 160px;
+}
+
+.img-group:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
