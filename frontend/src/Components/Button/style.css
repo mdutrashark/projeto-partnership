@@ -2,7 +2,6 @@ button{
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    font-weight: 600;
     padding: 8px 15px;
     height: 45px;
     transition: background-color 0.3s ease;
