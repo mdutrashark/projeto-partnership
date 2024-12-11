@@ -1,0 +1,84 @@
+h3{
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #ffff;
+}
+
+.middle-content{
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    bottom: -4rem;
+}
+
+.left-content{
+    position: relative;
+    bottom: -4rem;
+}
+
+.right-content{
+    position: relative;
+    bottom: -4rem;
+}
+
+.middle-img{
+    width: 25rem;
+    height: auto;
+    margin-top: 2.5rem;
+    position: relative;
+    top: 0.5rem;
+    right: 4rem;
+}
+
+.middle-img:hover{
+    transform: scale(1.1);
+    transition: .6s;
+    cursor: pointer;
+}
+
+#grupo-maxi{
+    margin-top: 3.5rem;
+    position: relative;
+    right: 2rem;
+}
+
+#middle-copy{
+    font-size: 1.58rem;
+    margin-top: 4rem;
+}
+
+#middle-bar{
+    position: relative;
+    top: 0.8rem;
+    left: 0.1rem;
+}
+
+#left-bar{
+    position: relative;
+    left: 0.5rem;
+}
+
+#left-copy{
+    font-size: 1.55rem;
+    margin-top: 2.2rem;
+}
+
+#right-bar{
+    position: relative;
+    left: 0.2rem;
+}
+
+#right-copy{
+    font-size: 1.58rem;
+    margin-top: 1.2rem;
+}
+
+#right-copy, #middle-copy, #left-copy{
+    font-weight: 550;
+}
+
+.b-black{
+    color: #242424;
+}
+
+

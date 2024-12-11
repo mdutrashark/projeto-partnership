@@ -1,0 +1,60 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #AF9D34;
+    color: #ffff;
+    padding: 0 11rem 4rem 11rem;
+}
+
+.contact-container{
+    position: relative;
+    right: 5rem;
+    bottom: 2rem;
+}
+
+.title-content{
+    position: relative;
+    bottom: 5rem;
+}
+
+.title-contact{
+    font-size: 5.5rem;
+    letter-spacing: 0.8rem;
+    line-height: 6rem;
+}
+
+.icons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    bottom: 3.5rem;
+}
+
+#vamos{
+    color: #ffff;
+}
+
+.copyright{
+    position: relative;
+    font-size: 1.5rem;
+    top: 14rem;
+    left: 0.5rem;
+}
+
+#whatsapp{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+#whatsapp:hover{
+    transform: scale(1.3);
+    transition: .9s;
+    cursor: pointer;
+}

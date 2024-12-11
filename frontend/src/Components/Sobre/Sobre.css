@@ -1,0 +1,68 @@
+article{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 1.5rem;
+    align-items: start;
+    background-color: #000000;
+    color: #ffff;
+    padding: 8rem 4rem 3rem 4rem;
+}
+
+#about-left-content{
+    position: relative;
+    bottom: -2rem;
+}
+
+#about-right-content{
+    position: relative;
+    bottom: -6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 2rem;
+}
+
+#comemoration-img{
+    width: 60rem;
+    height: 33rem;
+    border-radius: 5rem;
+    border: 0.3rem solid #AF9D34;
+}
+
+#about-btn{
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    align-self: center;
+    position: relative;
+    right: 0.2rem;
+}
+
+#about-title{
+    font-size: 3.7rem;
+    color: #AF9D34;
+}
+
+#aboutBar{
+    position: relative;
+    bottom: 0.5rem;
+}
+
+#about-copy{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 2.2rem;
+}
+
+#phrase-1{
+    font-size: 1.8rem;
+}
+
+#phrase-2{
+    font-size: 2rem;
+    position: relative;
+    top: 1rem;
+}    

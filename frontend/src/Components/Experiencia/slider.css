@@ -1,0 +1,161 @@
+/* Slider */
+
+.slider-exp{
+  margin: 0 auto;
+  width: 52rem;
+  height: 45rem;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 0;
+  position: relative;
+  bottom: -7rem;
+  left: 2.2rem;
+  
+}
+
+.slides-exp{
+  width: 52rem;
+  height: 45rem;
+  display: flex;
+  max-width: none;
+}
+
+
+.slides-exp input{
+  display: none;
+}
+
+.slide-exp{
+  width: 100%;
+  position: relative;
+}
+
+.slide-first-exp img{
+    width: 52rem;
+    height: 45rem;
+    border-radius: 4rem;
+    border: 0.5rem solid #AF9D34;
+}    
+
+.slide-exp img{
+    width: 52rem;
+    height: 45rem;
+    border-radius: 4rem;
+    border: 0.5rem solid #AF9D34;
+}
+
+.manual-navigation-exp{
+  position: absolute;
+  width: 52rem;
+  margin-top: -3.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn-exp{
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.manual-btn-exp:hover{
+    transform: scale(1.5);
+    transition: .2s;
+    background-color: #AF9D34;
+    border: #AF9D34 solid 0.2rem;
+}
+
+.manual-btn-exp:not(:last-child){
+  margin-right: 0.6rem;
+}
+
+#radio1-exp:checked ~ .slide-first-exp{
+  margin-left: 0;
+}
+
+#radio2-exp:checked ~ .slide-first-exp{
+  margin-left: -100%;
+}
+
+#radio3-exp:checked ~ .slide-first-exp{
+  margin-left: -200%;
+}
+
+#radio4-exp:checked ~ .slide-first-exp{
+  margin-left: -300%;
+}
+
+#radio5-exp:checked ~ .slide-first-exp{
+    margin-left: -400%;
+}
+  
+#radio6-exp:checked ~ .slide-first-exp{
+    margin-left: -500%;
+}
+  
+#radio7-exp:checked ~ .slide-first-exp{
+    margin-left: -600%;
+}
+  
+#radio8-exp:checked ~ .slide-first-exp{
+    margin-left: -700%;
+}
+  
+
+.navigation-auto-exp div{
+	background-color: #d9d9d9;
+  width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.navigation-auto-exp{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+	  width: 22rem;
+	  bottom: 2.2rem;
+    left: 15rem;
+	
+}
+
+
+.navigation-auto-exp div:not(:last-child){
+  margin-right: 0.6rem;
+}
+
+#radio1-exp:checked ~ .navigation-auto-exp .auto-btn1-exp{
+  background-color: #AF9D34;
+}
+
+#radio2-exp:checked ~ .navigation-auto-exp .auto-btn2-exp{
+  background-color: #AF9D34;
+}
+
+#radio3-exp:checked ~ .navigation-auto-exp .auto-btn3-exp{
+  background-color: #AF9D34;
+}
+
+#radio4-exp:checked ~ .navigation-auto-exp .auto-btn4-exp{
+  background-color: #AF9D34;
+}
+
+#radio5-exp:checked ~ .navigation-auto-exp .auto-btn5-exp{
+background-color: #AF9D34;
+}
+
+#radio6-exp:checked ~ .navigation-auto-exp .auto-btn6-exp{
+background-color: #AF9D34;
+}
+
+#radio7-exp:checked ~ .navigation-auto-exp .auto-btn7-exp{
+background-color: #AF9D34;
+}
+
+#radio8-exp:checked ~ .navigation-auto-exp .auto-btn8-exp{
+background-color: #AF9D34;
+}

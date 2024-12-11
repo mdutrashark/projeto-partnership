@@ -1,0 +1,61 @@
+.right-content-text{
+    position: relative;
+    left: 10rem;
+    bottom: -5rem;
+}
+
+.aclr-right-title{
+    color: #AF9D34;
+    font-size: 4.2rem;
+    font-weight: bolder;
+    width: 68rem;
+    height: 5.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.aclr-phrase1-copy{
+    color: #ffff;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+
+}
+
+.aclr-phrase2-copy{
+    margin-top: 0.5rem;
+    font-weight: bolder;
+}
+
+
+.left-img-group{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    position: relative;
+    top: 10rem;
+    left: 2.5rem;
+
+}
+
+.img-group{
+    width: 27rem;
+    height: 17rem;
+    border-radius: 2rem;
+    border: 0.3rem solid #AF9D34;
+}
+
+.img-group:hover{
+    transform: scale(1.1);
+    transition: .6s;
+}
+
+#aclr-top-bar{
+    width: 30rem;
+}
+
+#aclr-bottom-bar{
+    position: relative;
+    bottom: 1.5rem;
+    right: 0.2rem;
+    width: 58rem;
+}

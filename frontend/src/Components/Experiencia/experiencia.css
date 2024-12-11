@@ -1,0 +1,52 @@
+.exp-text-content{
+    position: relative;
+    left: 2.2rem;
+    bottom: -5rem;
+ } 
+
+.exp-title{
+    color: #AF9D34;
+    font-size: 4.2rem;
+    line-height: 4.5rem;
+    font-weight: bolder;
+    width: 58remx;
+    height: 10rem;
+    margin-bottom: 0.8rem;
+    margin-left: 0.4rem;
+}
+
+.phrase1-copy{
+    color: #AF9D34;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+    position: relative;
+    bottom: 0.5rem;
+
+}
+
+.phrase2-copy{
+    color: #ffff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    position: relative;
+    bottom: 0.2rem;
+
+}
+
+ #exp-top-bar{
+     position: relative;
+     bottom: 0.5rem;
+     left: 0.5rem;
+     width: 38rem;
+ }
+ 
+ #exp-bottom-bar{
+     position: relative;
+     bottom: 2rem;
+     left: 0.4rem;
+     width: 67rem;
+ }
