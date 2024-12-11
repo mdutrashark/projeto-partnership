@@ -7,5 +7,21 @@
 .slick-slide  {
     padding-left: 2%;
 }
+.slick-dots {
+  margin-left: 8%;
+  z-index: 10; 
+}
 
+.slick-dots li button {
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+}
+
+/* Estilo para o dot ativo */
+.slick-dots li.slick-active button {
+  background-color: rgba(255, 255, 255, 1); /* Cor de fundo do dot ativo */
+}
 
