@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+body {
+  background-color: lightgray;
+}
+
+.single-item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.single-item img {
+  margin: 0px auto;
+  width: 250px;  
+  height: 250px;
+  
+}
+
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  
+}
+
+.snip1577:before,
+.snip1577:after {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  content: '';
+  background-color: #ffffff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1577:before {
+  width: 0;
+  height: 1px;
+}
+
+.snip1577:after {
+  height: 0;
+  width: 1px;
+ 
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 25px 30px;
+
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.snip1577 h4 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.snip1577 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1577:hover img {
+  opacity: 0.2;
+}
+
+.snip1577:hover:before,
+.snip1577:hover:after {
+  opacity: 1;
+  transition-delay: 0.25s;
+}
+
+.snip1577:hover:before {
+  width: 40px;
+}
+
+.snip1577:hover:after {
+  height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577:hover h4 {
+  opacity: 1;
+}
+
+.snip1577:hover h3 {
+  transition-delay: 0.3s;
+}
+
+.snip1577:hover h4 {
+  transition-delay: 0.35s;
+}

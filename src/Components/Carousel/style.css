@@ -1,0 +1,11 @@
+/* Carousel */
+.carousel-container {
+    width: 100%;
+    padding: 0;
+  }
+
+.slick-slide  {
+    padding-left: 2%;
+}
+
+
