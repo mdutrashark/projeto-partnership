@@ -14,8 +14,7 @@ export function Home(){
             <Sobre/>
             <Campanha/>
             <Experience/>
-            <Footer/>
-            
+            <Footer/>      
         </div>
     )
 }

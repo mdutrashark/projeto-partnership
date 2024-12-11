@@ -1,11 +1,10 @@
 .exp-container{
     background-color: #000000;
-    height: 1000px;
-    width: auto;
+    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
-    align-items: center;
+    align-items: self-start;
     overflow: hidden;
     padding: 100px 0 0 50px;
 }
@@ -13,8 +12,7 @@
 /*LEFT SIDE COMPONENTS*/
 
 .left-side-content{
-    position: relative;
-    bottom: 3rem;
+    padding: 20px;
 }
 
 .left-side-title{
@@ -36,78 +34,23 @@
 
 }
 
-.left-side-img{
-    width: 480px;
-    height: 512px;
+.left-side-img {
+    width: 450px;
+    height: 350px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 50px;
-
-}
-
-.travel-img{
-    width: 480px;
-    height: 512px;
-}
-
-#left-seta{
-    width: 30px;
-    height: 35px;
-}
-
-
-#right-seta{
-    width: 30px;
-    height: 35px;
-}
-
-
-#seta-esquerda{
-    display: flex;
-    align-items: center;
-    right: 29rem;
-}
-
-#seta-esquerda:hover{
-    transform: translateX(-5px);
-    transition-duration: .2s;
-} 
-
-#seta-direita{
-    display: flex;
-    align-items: center;
-    right: 5rem;
-}
-
-#seta-direita:hover{
-    transform: translateX(5px);
-    transition-duration: .2s;
-}
-
-
-.setas{
-    position: relative;
-    width: 40px;
-    height: 45px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 3px;
-    cursor: pointer;
-    transition: .10s;
-}
+    text-align: center;
+    margin-top: 50px;
+  }
   
-.setas:hover{
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-
-.left-side-text{
-    margin-bottom: 5rem;
-}
-
-
-/*RIGHT SIDE COMPONENTS*/
-
+  .left-side-img img {
+    height: 360px;
+    width: 100%;
+    border: 3px solid rgb(228, 188, 10);
+    border-radius: 20px;
+  }
+  
 .right-side-content{
     position: relative;
     bottom: 5.3rem;
@@ -146,6 +89,7 @@
     right: 30px;
     width: 500px;
     height: 300px;
+    margin-left: 8%;
 
 }
 
@@ -158,3 +102,5 @@
     transform: scale(1.1);
     transition: .6s;
 }
+
+
