@@ -54,7 +54,7 @@ export function Inicio(){
                 <p id='frase'>Faça parte dessa parceria de sucesso, acumule pontos<br /> 
                 e  troque por  Experiências Incríveis<br />
                 </p>
-                <a href="#sobre"><Button id='home-btn' type="submit" buttonStyle="singUp">Junte-se a nós</Button></a>
+                <a id='a-sobre' href="#sobre"><Button id='home-btn' type="submit" buttonStyle="singUp">Junte-se a nós</Button></a>
             </div>
             <div id='background'></div>
 

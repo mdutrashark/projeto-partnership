@@ -51,6 +51,7 @@ footer{
     right: 3rem;
     width: 7rem;
     height: 7rem;
+    z-index: 9999;
 }
 
 #whatsapp:hover{
