@@ -1,0 +1,71 @@
+#Home{
+    display: grid;
+    grid-template: 1fr;
+    justify-content: flex-start;
+    background-image: url('../../assets/Home-img/banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    height: 830px;
+    width: auto;
+    padding: 137px 50px 50px 141px;
+}
+
+#information{ 
+   z-index: 2;
+   padding: 42px 0px 40px 48px;
+   position: relative;
+   bottom: 40px;
+}
+
+#background{
+    width: 750px;
+    height: 400px;
+    background-color: #000000;
+    opacity: 55%;
+    position: relative;
+    bottom: 457px;
+    z-index: 0;
+}
+
+#sub-title{
+   font-size: 34px;
+   color: #AF9D34;
+   font-weight: 600;
+   line-height: 38px;
+   position: relative;
+   bottom: 10px;
+}
+
+
+h1{
+    font-weight: 550;
+    font-size: 80px;
+    color: #AF9D34;
+}
+
+#frase-efeito{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#upper-bar{
+    position: relative;
+    bottom: 18px;
+    left: 1px;
+}
+
+#bottom-bar{
+    position: relative;
+    bottom: 8px;
+    left: 1px;
+}
+
+#home-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 2px;
+}

@@ -1,0 +1,44 @@
+.form-group{
+    line-height: 18px;
+}
+
+input{
+    border: none;
+}
+
+.small-inputs{
+    display: flex;
+    gap: 25px;
+}
+
+.small{
+    width: 211px;
+    height: 64px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 24px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.large-input{
+    width: 445px;
+    height: 64px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 24px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.message{
+    width: 445px;
+    height: 120px;
+    background-color: #303030;
+    color: #ffff;
+    border-radius: 24px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
