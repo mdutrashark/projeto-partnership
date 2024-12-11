@@ -8,11 +8,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 =======
-# Projeto-PlugowTech - Grupo09
+# Projeto-Partnership - Grupo09
 
 ## Objetivo
 
-Este repositório é destinado ao desenvolvimento site de gerenciamento de pontos com uma LP para apresentação da empresa e do produto Partnership para o projeto da **PlugowTech**. O projeto inclui desenvolvimento de front-end em HTML/CSS e JavaScript, back-end em Node.js, e banco de dados SQLite.
+Este repositório é destinado ao desenvolvimento de uma LandingPage para apresentação da do produto Partnership, um programa de parceria voltado para a premiação de profissionais e lojas de Art&Decor. O projeto inclui desenvolvimento front-end em HTML, CSS e React JS.
 
 
 Criar um site e uma landing page que apresente o projeto a empresa PlugowTech e o programa Partnership, com informações atrativas e uma interface amigável. A página deve permitir interação básica com o back-end para coleta e exibição de dados dinâmicos. 
@@ -20,19 +20,14 @@ Criar um site e uma landing page que apresente o projeto a empresa PlugowTech e 
 ## Tecnologias utilizadas
 
 - **Front-end:** HTML, CSS, JavaScript, React 
-- **Back-end:** Node.js, Express.js
-- **Banco de Dados:** SQLite
 - **Controle de Versão:** Git e GitHub
 - **Gerenciamento de Dependências:** npm
-- **Ferramentas de Design UX/UI:** Figma
+- **Ferramentas de Design UX/UI:** Figma, Photoshop e Canva
 
 ## Estrutura do projeto
 
 ```bash
-projeto-plugowtech/
-├── .github/
-│   └── workflows/
-│       └── ci.yml               # Configuração do GitHub Actions
+projeto-partnership/
 ├── uxui/
 │   ├── wireframes/              # Protótipos e wireframes
 │   └── design/                  # Arquivos de design (Figma, Sketch, etc.)
@@ -44,36 +39,19 @@ projeto-plugowtech/
 │   │   ├── assets/              # Imagens, fontes e outros assets
 │   │   ├── components/          # Componentes reutilizáveis
 │   │   ├── pages/               # Páginas do projeto
-│   │   ├── routes/              # Configuração das rotas
+│   │
 │   │   ├── services/            # Serviços para chamadas de API
 │   │   ├── App.js               # Componente principal do React
 │   │   └── index.js             # Arquivo principal de entrada
 │   └── package.json             # Dependências do frontend
-├── backend/
-│   ├── config/
-│   │   └── config.js            # Configurações gerais do projeto
-│   ├── controllers/             # Controladores das rotas da API
-│   ├── database/
-│   │   ├── schema/              # Esquema do banco de dados
-│   │   ├── seed/                # Dados iniciais do banco
-│   │   └── index.js             # Configuração de conexão ao banco de dados
-│   ├── middleware/              # Middlewares de autenticação, etc.
-│   ├── routes/
-│   │   ├── api.js               # Rotas da API
-│   │   └── index.js             # Arquivo principal de rotas
-│   ├── utils/
-│   │   └── helpers.js           # Funções auxiliares
-│   ├── server.js                # Servidor Node.js principal
-│   └── package.json             # Dependências do backend
 ├── .gitignore
 ├── README.md                    # Documentação do projeto, instruções e convenções de branches
-
 ```
 
 ## Configuração do ambiente de desenvolvimento
 ### Requisitos
 - Git: Controle de versão
-- Node.js: (v14 ou superior) - Plataforma de execução - JavaScript
+- Vite: 
 - npm: Gerenciador de pacotes para Node.js
 - Banco de dados SQLite
 - Editor de Código: Visual Studio Code
