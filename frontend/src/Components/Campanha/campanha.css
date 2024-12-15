@@ -4,6 +4,11 @@ h3{
     color: #ffff;
 }
 
+#campanha-container{
+    display: flex;
+    gap: 12rem;
+}
+
 .middle-content{
     display: grid;
     grid-template-columns: auto;

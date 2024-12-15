@@ -13,7 +13,7 @@ export function Home(){
             <Header/>
             <main>
                 <section id="home" className="section"><Inicio/></section>
-                <section id="sobre" className="section"><Sobre/></section> 
+                <article id="sobre" className="section"><Sobre/></article> 
                 <section id="campanha" className="section"><Campanha/></section>
                 <section id="experiencia" className="section"><Experiencia/></section>
                 <section id="acelera" className="section"><Acelera/></section>

@@ -12,12 +12,12 @@ export function Contatos(){
             <div className='contact-container'>
                 <div className='title-content'>
                     <p className='title-contact'><b id='vamos'>VAMOS</b><br />CONVERSAR</p>
-                    <img className='bar' src={titleBar} alt="bar-icon" />
+                    <img id='contact-bar' src={titleBar} alt="bar-icon" />
                 </div>
                 
                 <div className='contact-content'>
-                    <div className='icons'><img src={phoneIcon} alt="phone-icon" /><p>(11) 98695-0878</p></div>
-                    <div className='icons'><img src={emailIcon} alt="email-icon" /><p>contato@partnership.com.br</p></div>
+                    <div className='icons'><img id='icon' src={phoneIcon} alt="phone-icon" /><p>(11) 98695-0878</p></div>
+                    <div className='icons'><img id='icon' src={emailIcon} alt="email-icon" /><p>contato@partnership.com.br</p></div>
                     <p className='copyright'>Copyright © 2024 Partnership</p>
                 </div>
             </div>

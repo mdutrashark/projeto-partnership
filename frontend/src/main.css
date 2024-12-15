@@ -32,11 +32,13 @@ a{
     width: 100%;
     height: 100vh;
     display: flex;
+    margin: auto;
 
 }
 
 #home{
     display: block;
+    background-color: #000000;
 }
 
 #campanha{
@@ -71,3 +73,1271 @@ a{
 }
 
 
+/* Responsividade */
+
+
+/* Mobile first */
+
+@media screen and (min-width: 250px) and (max-width: 350px){
+
+    /* header */
+
+    header {
+        padding: auto;
+    }
+
+    #logo-header{
+        left: 1rem;
+    }
+
+    #menu{
+        display: none
+    }
+    #mobile-menu-icon{
+        display: block;
+        position: relative;
+        left: -4.5rem;
+    }
+    #mobile-menu-icon button{
+        background-color: transparent;
+        height: 6rem;
+        border: none;
+        cursor: pointer;
+    }
+    #open-menu{
+        width: 4.5rem;
+    }
+    #mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    /* Home */
+
+    #home{
+        margin: auto;
+        padding: auto;
+    }
+
+    #information{ 
+        padding: auto;
+        left: -3rem;
+        bottom: 50rem;
+
+    }
+
+    #background{
+        display: none;
+        
+    }
+            
+    h1{
+
+        font-size: 4.2rem;
+    }
+
+    #sub-title{
+        font-size: 3.2rem;
+        bottom: 1rem;
+        margin: 1rem 0;
+    }
+        
+    #frase{
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+        padding: auto;
+    }
+
+    #upper-bar{
+        bottom: 1.2rem;
+        left: 0.1rem;
+        width: 28rem;
+    }
+
+    #bottom-bar{
+        bottom: 0.8rem;
+        left: 0;
+        width: 28rem;
+    }
+
+    .slider{
+        height: 90vh;
+        
+    }
+
+    .manual-navigation{
+        bottom: 4.2rem;
+        left: 39%;
+    }
+    
+    .manual-btn{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .navigation-auto div{
+        background-color: #d9d9d9;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .navigation-auto{
+        width: 10rem;
+        height: 2.2rem;
+        bottom: 1.8rem;
+        left: 40%;
+    }
+
+    
+    /* Sobre */
+
+    #sobre{
+        display: block;
+        width: 100%;
+        height: 180rem;
+        gap: 0;
+        align-items: center;
+        padding: auto;
+    }
+
+    #about-left-content{
+        position: relative;
+        bottom: 12rem;
+        left: -1rem;
+
+    }
+
+    #about-right-content{
+        bottom: 5rem;
+    }
+    
+    #comemoration-img{
+        width: 100%;
+        height: 30rem;
+    }
+
+    #about-btn{
+        width: 15rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+
+    #aboutBar{
+       width: 25rem;
+    }
+
+    #about-copy{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        line-height: 3rem;
+    }
+    
+    #phrase-1{
+        font-size: 1.8rem;
+    }
+    
+    #phrase-2{
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }    
+
+    /* Campanha */
+
+    #campanha{
+        display: block;
+        height: 185rem;
+        padding: auto;
+    }
+
+    #campanha-container{
+        display: block;
+        position: relative;
+        gap: 0;
+        top: -5rem;
+        padding: auto;
+    }
+
+    .left-content{
+        margin-top: 1rem;
+    }
+
+    .middle-content{
+        margin: 6rem 0;
+    }
+
+    #grupo-maxi{
+        margin-top: 3.5rem;
+        position: relative;
+        right: 0.2rem;
+    }
+
+    #left-bar{
+        left: 0.3rem;
+        width: 22rem;
+    }
+
+    #right-bar{
+        left: 0.2rem;
+        width: 27rem;
+    }
+
+    /* Experiência */
+
+    #experiencia{
+        height: 110rem;
+        display: block;
+        padding: auto;
+        justify-content: none;
+    }
+
+    .exp-text-content{
+        position: relative;
+        left: 1rem;
+        bottom: -1rem;
+    } 
+
+    .exp-title{
+        font-size: 4rem;
+        line-height: 4.5rem;
+        width: 28rem;
+        height: 15rem;
+    }
+
+    #exp-top-bar{
+        width: 25rem;
+    }
+    
+    #exp-bottom-bar{
+        width: 28rem;
+    }
+
+    /* Slider */
+
+    .slider-exp{
+        margin: auto;
+        width: 30rem;
+        height: 35rem;
+        position: relative;
+        bottom: -7rem;
+        left: 0rem;
+        
+    }
+    
+    .slides-exp{
+        width: 30rem;
+        height: 35rem;
+    }
+    
+    .slide-first-exp img{
+        width: 30rem;
+        height: 35rem;
+    }    
+    
+    .slide-exp img{
+        width: 30rem;
+        height: 35rem;
+    }
+
+    .manual-navigation-exp{
+        width: 52rem;
+        margin-top: -3.9rem;
+        left: -11rem;
+    }
+  
+    .manual-btn-exp{
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+
+    .navigation-auto-exp{
+        bottom: 2.2rem;
+        left: 4rem;
+        
+    }
+
+    /* Acelera */
+
+    #acelera{
+        height: 160rem;
+        background-color: #000000;
+        display: block;
+        justify-content: none;
+        align-items: start;
+        padding: auto;
+    }
+
+    .right-content-text{
+        position: relative;
+        left: 1rem;
+        bottom: 83rem;
+    }
+
+    .aclr-right-title{
+        width: 48rem;
+        line-height: 4.5rem;
+    }
+
+    .aclr-phrase1-copy{
+        margin-top: 5rem;
+    
+    }
+
+    #aclr-top-bar{
+        position: relative;
+        width: 28rem;
+        bottom: -2.5rem;
+    }
+
+    #aclr-bottom-bar{
+        width: 28rem;
+    }
+
+    .left-img-group{
+        display: block;
+        position: relative;
+        top: 68rem;
+        left: 1.5rem;
+    
+    }
+    
+    .img-group{
+       margin-bottom: 3rem;
+    }
+
+    /* Contatos */
+
+    footer{
+        flex-direction: column;
+        padding: auto;
+    }
+
+    #contatos{
+        height: 110rem;
+    }
+
+    .contact-container{
+        left: 0.2rem;
+        bottom: -4rem;
+    }
+
+    .title-contact{
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+        line-height: 4.5rem;
+    }
+
+    .icons{
+        font-size: 1.6rem;
+    }
+
+    .copyright{
+        top: 71rem;
+        left: 0rem;
+    }
+
+
+    /* Form */
+ 
+    .form-group{
+        line-height: 1.5rem;
+        position: relative;
+        left: 0.1rem;
+        top: 2rem;
+    }
+
+    .small-group{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .small-inputs{
+        width: 30rem;
+        height: 6rem;
+    }
+
+    .large-inputs{
+        width: 30rem;
+        height: 6rem;
+    }
+    
+    .message-input{
+        width: 30rem;
+        height: 10rem;
+    }
+    
+    #form-btn{
+        width: 29rem;
+        height: 6rem;
+        left: 0.4rem ;
+    }
+    
+
+    
+
+}
+
+@media screen and (min-width: 351px) and (max-width: 555px) {
+    /* header */
+
+    header {
+        padding: auto;
+    }
+
+    #logo-header{
+        left: 1rem;
+    }
+
+    #menu{
+        display: none
+    }
+    #mobile-menu-icon{
+        display: block;
+        position: relative;
+        left: -4.5rem;
+    }
+    #mobile-menu-icon button{
+        background-color: transparent;
+        height: 6rem;
+        border: none;
+        cursor: pointer;
+    }
+    #open-menu{
+        width: 4.5rem;
+    }
+    #mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    /* Home */
+
+    #home{
+        margin: auto;
+        padding: auto;
+    }
+
+    #information{ 
+        padding: auto;
+        left: -3rem;
+        bottom: 62rem;
+
+    }
+
+    #background{
+        display: none;
+        
+    }
+         
+    h1{
+        font-size: 4.5rem;
+   }
+
+    #sub-title{
+        font-size: 3.2rem;
+        bottom: 1rem;
+        margin: 1rem 0;
+    }
+     
+    #frase{
+        font-size: 1.7rem;
+        margin-bottom: 3rem;
+        padding: auto;
+    }
+
+    #upper-bar{
+        bottom: 1.2rem;
+        left: 0.1rem;
+        width: 28rem;
+    }
+
+    #bottom-bar{
+        bottom: 0.8rem;
+        left: 0;
+        width: 38rem;
+    }
+
+    .slider{
+        height: 90vh;
+        
+    }
+
+    .manual-navigation{
+        bottom: 4.5rem;
+        left: 41.5%;
+    }
+    
+    .manual-btn{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .navigation-auto div{
+        background-color: #d9d9d9;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .navigation-auto{
+        width: 10rem;
+        height: 2.2rem;
+        bottom: 2rem;
+        left: 41.5%;
+    }
+
+    /* Sobre */
+
+    #sobre{
+        display: block;
+        height: 143rem;
+        gap: 0;
+        align-items: center;
+        padding: auto;
+    }
+
+    #about-left-content{
+        position: relative;
+        bottom: 12rem;
+        left: -1rem;
+    }
+
+    #about-right-content{
+        bottom: 1rem;
+        left:  0.1rem;
+    }
+    
+    #comemoration-img{
+        width: 100%;
+        height: 30rem;
+    }
+
+    #about-btn{
+        width: 18rem;
+        height: 4rem;
+        font-size: 1.8rem;
+    }
+
+    /* Campanha */
+
+    #campanha{
+        display: block;
+        height: 160rem;
+        padding: auto;
+    }
+
+    #campanha-container{
+        display: block;
+        text-align: justify;
+        position: relative;
+        gap: 0;
+        top: -4rem;
+        padding: auto;
+    }
+
+    .left-content{
+        margin-top: 2rem;
+    }
+
+    .middle-content{
+        margin: 6rem 0;
+    }
+
+    #grupo-maxi{
+        margin-top: 3.5rem;
+        position: relative;
+        right: 0.2rem;
+    }
+
+    #left-bar{
+        left: 0.3rem;
+        width: 22rem;
+    }
+
+    #right-bar{
+        left: 0.2rem;
+        width: 27rem;
+    }
+
+    /* Experiência */
+
+    #experiencia{
+        height: 110rem;
+        display: block;
+        padding: auto;
+        justify-content: none;
+    }
+
+    .exp-text-content{
+        position: relative;
+        left: 1rem;
+        bottom: -4rem;
+    } 
+
+    .exp-title{
+        font-size: 4rem;
+        line-height: 4.5rem;
+        width: 28rem;
+        height: 15rem;
+    }
+
+    #exp-top-bar{
+        width: 25rem;
+    }
+    
+    #exp-bottom-bar{
+        width: 28rem;
+    }
+
+    /* Slider */
+
+    .slider-exp{
+        margin: auto;
+        width: 34rem;
+        height: 35rem;
+        position: relative;
+        bottom: -15rem;
+        left: 0rem;
+        
+    }
+    
+    .slides-exp{
+        width: 34rem;
+        height: 35rem;
+    }
+    
+    .slide-first-exp img{
+        width: 34rem;
+        height: 35rem;
+    }    
+    
+    .slide-exp img{
+        width: 34rem;
+        height: 35rem;
+    }
+
+    .manual-navigation-exp{
+        width: 52rem;
+        margin-top: -3.9rem;
+        left: -9rem;
+    }
+    
+    .manual-btn-exp{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .navigation-auto-exp{
+        bottom: 2.2rem;
+        left: 6rem;
+        
+    }
+
+    /* Acelera */
+
+    #acelera{
+        height: 185rem;
+        background-color: #000000;
+        display: block;
+        align-items: start;
+        padding: auto;
+    }
+
+    .right-content-text{
+        position: relative;
+        left: 1rem;
+        top: -90rem;
+    }
+
+    .aclr-right-title{
+        width: 48rem;
+        line-height: 4.5rem;
+    }
+
+    .aclr-phrase1-copy{
+        margin-top: 5rem;
+    
+    }
+
+    #aclr-top-bar{
+        position: relative;
+        width: 28rem;
+        bottom: -2.5rem;
+    }
+
+    #aclr-bottom-bar{
+        width: 28rem;
+    }
+
+    .left-img-group{
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+        display: block;
+        position: relative;
+        top: 75rem;
+        left: 0;
+        gap: 0.5rem;
+        margin-right: 1rem;
+    
+    }
+    
+    .img-group{
+        position: relative;
+        left: 2.1rem;
+        width: 90%;
+        height: 21rem;
+        margin-bottom: 3rem;
+    }
+
+     /* Contatos */
+
+     footer{
+        flex-direction: column;
+        padding: auto;
+    }
+
+    #contatos{
+        height: 110rem;
+    }
+
+    .contact-container{
+        left: 0.2rem;
+        bottom: -4rem;
+    }
+
+    .title-contact{
+        font-size: 4.8rem;
+        letter-spacing: 0.5rem;
+        line-height: 4.5rem;
+    }
+
+    .icons{
+        font-size: 1.9rem;
+    }
+
+    .copyright{
+        top: 71rem;
+        left: 2.2rem;
+    }
+
+
+    /* Form */
+ 
+    .form-group{
+        line-height: 1.5rem;
+        position: relative;
+        left: 0.1rem;
+        top: 2rem;
+    }
+
+    .small-group{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .small-inputs{
+        width: 32rem;
+        height: 6rem;
+    }
+
+    .large-inputs{
+        width: 32rem;
+        height: 6rem;
+    }
+    
+    .message-input{
+        width: 32rem;
+        height: 10rem;
+    }
+    
+    #form-btn{
+        width: 30rem;
+        height: 6rem;
+        left: 1rem;
+    }
+
+  
+
+}
+
+@media screen and (min-width: 556px) and (max-width: 768px) {
+        /* header */
+
+        header {
+            padding: auto;
+        }
+
+        #logo-header{
+            left: -8rem;
+        }
+
+        #menu{
+            display: none
+        }
+        #mobile-menu-icon{
+            display: block;
+            position: relative;
+            right: -2.5rem;
+        }
+        #mobile-menu-icon button{
+            background-color: transparent;
+            height: 6rem;
+            border: none;
+            cursor: pointer;
+        }
+        #open-menu{
+            width: 4.5rem;
+        }
+        #mobile-menu ul{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+
+        /* Home */
+
+        #home{
+            margin: auto;
+            padding: auto;
+            height: 70rem;
+        }
+
+        #information{ 
+            padding: auto;
+            left: 1rem;
+            bottom: 80rem;
+
+        }
+
+        #background{
+            display: none;
+            
+        }
+            
+        h1{
+            font-size: 7rem;
+        }
+
+        #sub-title{
+            font-size: 4.5rem;
+            line-height: 4.5rem;
+            bottom: 1rem;
+            margin: 1rem 0;
+        }
+        
+        #frase{
+            font-size: 2.1rem;
+            margin-bottom: 3rem;
+            padding: auto;
+        }
+
+        #upper-bar{
+            bottom: 1.2rem;
+            left: 0.1rem;
+            width: 40rem;
+        }
+
+        #bottom-bar{
+            bottom: 0.8rem;
+            left: 0;
+            width: 55rem;
+        }
+
+        
+        #home-btn{
+            width: 20rem;
+            height: 5rem;
+            font-size: 2.2rem;
+            color: #000000;
+            border-radius: 0.2rem;
+            left: 0.1rem;
+        }
+
+        .slider{
+            height: 90vh;
+            
+        }
+
+        .manual-navigation{
+            bottom: 25rem;
+            left: 40.8%;
+        }
+        
+        .manual-btn{
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .navigation-auto div{
+            background-color: #d9d9d9;
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+        
+        .navigation-auto{
+            width: 10rem;
+            height: 2.2rem;
+            bottom: 22.5rem;
+            left: 41.5%;
+        }
+
+        /* Sobre */
+
+        #sobre{
+            flex-direction: column;
+            align-items: center;
+            height: 170rem;
+            gap: 0;
+            padding: auto;
+        }
+
+        #about-left-content{
+            position: relative;
+            bottom: 3rem;
+            left: -1rem;
+        }
+
+        #about-right-content{
+            bottom: 1rem;
+            left:  0.1rem;
+        }
+
+        #about-title{
+            font-size: 5.5rem;
+            color: #AF9D34;
+            margin-bottom: 1.5rem;
+        }
+        
+        #comemoration-img{
+            width: 100%;
+            height: 35rem;
+        }
+
+        #about-btn{
+            width: 25rem;
+            height: 5rem;
+            font-size: 2.3rem;
+        }
+            
+        #about-copy{
+            font-size: 2rem;
+            margin-top: 1.9rem;
+            line-height: 3rem;
+        }
+
+        #phrase-1{
+            font-size: 2.2rem;
+        }
+
+        #phrase-2{
+            font-size: 2.3rem;
+        }
+
+        
+        /* Campanha */
+
+        #campanha{
+            display: block;
+            height: 195rem;
+            padding: auto;
+        }
+
+        #campanha-container{
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            align-items: center;
+            gap: 0;
+            padding: auto;
+        }
+
+        .left-content{
+            margin-top: 2rem;
+        }
+
+        .middle-content{
+            margin: 6rem 0;
+            padding-right: 6rem;
+        }
+
+        .right-content{
+            padding-right: 9rem;
+        }
+
+        
+        #left-copy{
+            font-size: 2.5rem;
+        }
+
+        #middle-copy{
+            font-size: 2.5rem;
+        }
+
+        #right-copy{
+            font-size: 2.5rem;
+        }
+
+        #grupo-maxi{
+            margin-top: 3.5rem;
+            position: relative;
+            left: 1rem;
+        }
+
+        #left-bar{
+            left: 0.3rem;
+            width: 28rem;
+        }
+
+        #middle-bar{
+            left: 0.3rem;
+            width: 40rem;
+        }
+
+        #right-bar{
+            left: 0.2rem;
+            width: 27rem;
+        }
+
+        .middle-img{
+            width: 30rem;
+        }
+
+        h3{
+            font-size: 5rem;
+        }
+
+        /* Experiência */
+
+        #experiencia{
+            height: 150rem;
+            display: block;
+            padding: auto;
+            justify-content: none;
+        }
+
+        .exp-text-content{
+            position: relative;
+            left: 1rem;
+            bottom: -4rem;
+        } 
+
+        .exp-title{
+            font-size: 5rem;
+            line-height: 5.5rem;
+            width: 50rem;
+            height: 12rem;
+            margin-bottom: 0;
+        }
+        
+        .phrase1-copy{
+            font-size: 2.5rem;
+        }
+
+        .phrase2-copy{
+            font-size: 2.3rem;
+        }
+
+        #exp-top-bar{
+            width: 50rem;
+        }
+        
+        #exp-bottom-bar{
+            width: 60rem;
+        }
+
+        /* Slider */
+
+        .slider-exp{
+            margin: auto;
+            width: 60rem;
+            height: 65rem;
+            position: relative;
+            bottom: -15rem;
+            left: 0rem;
+            
+        }
+        
+        .slides-exp{
+            width: 60rem;
+            height: 65rem;
+        }
+        
+        .slide-first-exp img{
+            width: 60rem;
+            height: 65rem;
+        }    
+        
+        .slide-exp img{
+            width: 60rem;
+            height: 65rem;
+        }
+
+        .manual-navigation-exp{
+            width: 52rem;
+            margin-top: -5rem;
+            left: 4rem;
+        }
+        
+        .manual-btn-exp{
+            width: 2.2rem;
+            height: 2.2rem;
+        }
+
+        .navigation-auto-exp{
+            bottom: 3rem;
+            left: 19rem;
+            
+        }
+
+        .navigation-auto-exp div{
+            width: 2.3rem;
+            height: 2.3rem;
+        }
+
+        /* Acelera */
+
+        #acelera{
+            height: 150rem;
+            background-color: #000000;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            padding: auto;
+        }
+
+        .right-content-text{
+            left: 1rem;
+            top: -62rem;
+        }
+
+        .aclr-right-title{
+            font-size: 6rem;
+            margin-bottom: 3rem;
+            width: 48rem;
+            line-height: 5.8rem;
+        }
+
+        .aclr-phrase1-copy{
+            margin-top: 8rem;
+            font-size: 2.1rem;
+            line-height: 4rem;
+        
+        }
+
+        #aclr-top-bar{
+            position: relative;
+            width: 40rem;
+            bottom: -5rem;
+        }
+
+        #aclr-bottom-bar{
+            width: 60rem;
+        }
+
+        
+        .left-img-group{
+            column-gap: 1.8rem;
+            row-gap: 1rem;
+            top: 73rem;
+        
+
+        }
+        
+        .img-group{
+            position: relative;
+            left: -2.8rem;
+            width: 30rem;
+            height: 20rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Contatos */
+
+        footer{
+            flex-direction: column;
+            padding: auto;
+        }
+
+        #contatos{
+            height: 120rem;
+        }
+
+        .contact-container{
+            left: 0.2rem;
+            bottom: -7rem;
+        }
+
+        #contact-bar{
+            width: 40rem;
+        }
+
+        .title-contact{
+            font-size: 7rem;
+            margin-bottom: 2rem;
+            letter-spacing: 0.6rem;
+            line-height: 6.5rem;
+        }
+
+        .icons{
+            font-size: 3rem;
+        }
+
+        #icon{
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .copyright{
+            font-size: 2rem;
+            top: 70rem;
+            left: 9rem;
+        }
+
+        #whatsapp{
+            width: 10rem;
+            height: 10rem;
+        }
+
+
+        /* Form */
+    
+        .form-group{
+            line-height: 1.5rem;
+            left: 0.1rem;
+            top: 5rem;
+        }
+
+        .small-group{
+            gap: 1.5rem;
+        }
+
+        .small-inputs{
+            width: 25rem;
+            height: 6.5rem;
+            font-size: 2rem;
+        }
+
+        .large-inputs{
+            width: 52rem;
+            height: 6.5rem;
+            font-size: 2rem;
+        }
+        
+        .message-input{
+            width: 52rem;
+            height: 15rem;
+            font-size: 2rem;
+        }
+        
+        #form-btn{
+            width: 50rem;
+            height: 6.5rem;
+            left: 0.8rem;
+            font-size: 2rem;
+        }
+
+
+}

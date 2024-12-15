@@ -9,12 +9,12 @@ input{
     border: none;
 }
 
-.small-inputs{
+.small-group{
     display: flex;
     gap: 2.5rem;
 }
 
-.small{
+.small-inputs{
     width: 19.8rem;
     height: 5rem;
     background-color: #303030;
@@ -24,7 +24,7 @@ input{
     font-size: 1.5rem;
 }
 
-.large-input{
+.large-inputs{
     width: 42rem;
     height: 5rem;
     background-color: #303030;
@@ -34,7 +34,7 @@ input{
     font-size: 1.5rem;
 }
 
-.message{
+.message-input{
     width: 42rem;
     height: 10rem;
     background-color: #303030;
