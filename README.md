@@ -63,5 +63,5 @@ comando: npm run build
 
 ## Observações
 
-# As medidas de todo o projeto estão padronizadas em REM
-# Toda a responsividade do projeto foi feita dentro do arquivo main.css
+### As medidas de todo o projeto estão padronizadas em REM
+### Toda a responsividade do projeto foi feita dentro do arquivo main.css
