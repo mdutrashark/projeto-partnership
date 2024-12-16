@@ -900,7 +900,7 @@ a{
 
 }
 
-@media screen and (min-width: 556px) and (max-width: 768px) {
+@media screen and (min-width: 556px) and (max-width: 992px) {
         /* header */
 
         header {
@@ -1380,37 +1380,23 @@ a{
 
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    /* header */
 
-    header{
-        justify-content: center;
-        align-items: start;
-        padding: 0;
-        height: 9.2rem;
-        
-    }
+/* Medium to Large Displays */
 
-    #logo-header{
-        width: 16.5rem;
+
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+
+     /* header */
+
+     #logo-header{
+        width: 22rem;
         height: auto;
-        left: 38%;
-        top: 0.8rem;
-
+        margin-left: 3rem;
     }
-    
+
     li{
-        font-size: 1.7rem;
-        margin: 0.7rem;
-        position: relative;
-        top: 4.5rem;
-        right: 13%;
-    }
-
-    nav{
-        justify-content: space-around;
-        position: relative;
-        left: 0rem;
+        right: 6rem;
+        font-size: 2rem;
     }
 
     /* Home */
@@ -1423,14 +1409,16 @@ a{
 
     #information{ 
         padding: auto;
-        left: 1rem;
-        bottom: 90rem;
+        left: 5rem;
+        bottom: 63rem;
     }
 
     #background{
-        display: none;
-        
-    }
+        width: 65rem;
+        height: 35rem;
+        bottom: 100rem;
+        left: 8rem;
+    } 
         
     h1{
         font-size: 7rem;
@@ -1854,9 +1842,378 @@ a{
     }
 
 
+    h1{
+        font-size: 5.5rem;
+        margin-bottom: 0.5rem;
+   }
+
+    #sub-title{
+        font-size: 3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+     
+    #frase{
+        font-size: 1.7rem;
+        margin-top: 0.5rem;
+    }
+     
+    #home-btn{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.55rem;
+    }
+
+    .manual-navigation{
+        bottom: -1.5rem;
+        left: 45%;
+        width: 9rem;
+    }
+    
+    .manual-btn{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 5rem;
+    }
+
+    .navigation-auto div{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 5rem;
+    }
+    
+    .navigation-auto{
+        position: absolute;
+        width: 22rem;
+        bottom: -4.2rem;
+        left: 46%;
+    }
+
+    /* Sobre */
+
+    #sobre{
+        height: 75rem;
+    }
+
+    #about-left-content{
+        position: relative;
+        bottom: -5rem;
+    }
+    
+    #about-right-content{
+        bottom: -11rem;
+    }
+    
+    #comemoration-img{
+        width: 58rem;
+        height: 35rem;
+    }
+    
+    #about-btn{
+        width: 20rem;
+        height: 4.5rem;
+        font-size: 2rem;
+    }
+    
+    #about-title{
+        font-size: 4rem;
+    }
+    
+    #aboutBar{
+        position: relative;
+        bottom: -0.5rem;
+    }
+    
+    #about-copy{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        line-height: 2.4rem;
+    }
+    
+    #phrase-1{
+        font-size: 1.8rem;
+    }
+    
+    #phrase-2{
+        font-size: 2rem;
+        position: relative;
+        top: 1rem;
+    }    
+
+    /* Campanha */
+
+    h3{
+        font-size: 4rem;
+    }
+
+    #campanha{
+        height: 68rem;
+    }
+
+    #campanha-container{
+        position: relative;
+        bottom: -1rem;
+        gap: 11rem;
+        margin-left: 1rem;
+        margin-right: 1.5rem;
+    }
+    
+    .middle-img{
+        width: 25rem;
+        height: auto;
+        margin-top: 1rem;
+    }
+    
+    #grupo-maxi{
+        margin-top: 1rem;
+        right: 0;
+    }
+    
+    #middle-copy{
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+        margin-top: 0rem;
+    }
+    
+    #middle-bar{
+        position: relative;
+        top: 0;
+        left: 0.1rem;
+        width: 25rem;
+    }
+    
+    #left-bar{
+        position: relative;
+        left: 0.5rem;
+        width: 25rem;
+    }
+    
+    #left-copy{
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        margin-top: 2.2rem;
+    }
+    
+    #right-bar{
+        position: relative;
+        left: 0.2rem;
+        width: 25rem;
+    }
+    
+    #right-copy{
+        font-size: 1.6rem;
+        margin-top: 1.2rem;
+        line-height: 3rem;
+    }
+
+
+    /* Experiência */
+
+    #experiencia{
+        height: 85rem;
+    }
+
+    .exp-text-content{
+        position: relative;
+        left: 2.5rem;
+        bottom: -7rem;
+     } 
+    
+    .exp-title{
+        font-size: 4rem;
+        line-height: 4rem;
+        margin-bottom: 0rem;
+    }
+    
+    .phrase1-copy{
+        font-size: 1.8rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        top: 0.2rem;
+    
+    }
+    
+    .phrase2-copy{
+        font-size: 2rem;
+        margin-top: 2rem;
+        line-height: 3.5rem;
+    }
+    
+    #exp-top-bar{
+        position: relative;
+        bottom: 0.5rem;
+        left: 0.5rem;
+        width: 38rem;
+    }
+    
+    #exp-bottom-bar{
+        position: relative;
+        bottom: 2rem;
+        left: 0.4rem;
+        width: 67rem;
+    }
+
+    .slider-exp, .slides-exp, .slide-first-exp img, .slide-exp img{
+        width: 47rem;
+        height: 46rem;
+    }
+
+    .slider-exp{
+        bottom: -8rem;
+    }
+
+    .manual-navigation-exp{
+        width: 48rem;
+        margin-top: -4rem;
+      }
+    
+    .manual-btn-exp{
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 5rem;
+    }
+
+    .navigation-auto-exp div{
+        background-color: #d9d9d9;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 5rem;
+    }
+    
+    .navigation-auto-exp{
+        width: 22rem;
+        bottom: 2.2rem;
+        left: 13rem;
+    }
+
+    /* Acelera */
+
+    #acelera{
+        height: 80rem;
+    }
+
+    .right-content-text{
+        position: relative;
+        left: 6rem;
+        bottom: -8rem;
+    }
+    
+    .aclr-right-title{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .aclr-phrase1-copy{
+        font-size: 1.9rem;
+        margin-top: 2.8rem;
+        line-height: 3rem;
+    
+    }
+    
+    .aclr-phrase2-copy{
+        font-size: 1.9rem;
+        margin-top: 1rem;
+        line-height: 2.8rem;
+    }   
+    
+    .left-img-group{
+        column-gap: 1.8rem;
+        row-gap: 1.8rem;
+        top: 12.5rem;
+        left: 1rem;
+    }
+    
+    .img-group{
+        width: 28rem;
+        height: 18rem;
+    }
+
+    /* Contatos */
+
+    #contatos{
+        height: 65rem;
+    }
+
+    .contact-container{
+        right: 5rem;
+        bottom: -2rem;
+    }
+    
+    .title-contact{
+        font-size: 6rem;
+        letter-spacing: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .icons{
+        font-size: 2.2rem;
+        padding-top: 2rem;
+        bottom: 3.5rem;
+    }
+
+    #icon{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .copyright{
+        font-size: 1.8rem;
+        top: 15rem;
+    }
+    
+    #whatsapp{
+        bottom: 6rem;
+        right: 8rem;
+        width: 6.5rem;
+        height: 6.5rem;
+        opacity: 0.4;
+    }
+
+    #whatsapp:hover{
+        transform: scale(1.3);
+        transition: .9s;
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .form-group{
+        line-height: 1.8rem;
+        position: relative;
+        left: 7rem;
+        top: 6rem;
+    }
+    
+    .small-inputs{
+        width: 20rem;
+        height: 6rem;
+        font-size: 1.7rem;
+    }
+    
+    .large-inputs{
+        width: 42.8rem;
+        height: 6rem;
+        font-size: 1.7rem;
+    }
+    
+    .message-input{
+        width: 42.8rem;
+        height: 12rem;
+        font-size: 1.7rem;
+    }
+    
+    #form-btn{
+        width: 42rem;
+        height: 6rem;
+        font-size: 1.7rem;
+        left: 0.4rem;
+    }
+
 }
 
-@media only screen and (min-width: 1401px) {
+
+@media only screen and (min-width: 1381px) {
+    
     
     /* Header */
 
@@ -2206,10 +2563,18 @@ a{
     }
     
     #whatsapp{
-        bottom: 7rem;
-        right: 6rem;
+        bottom: 10rem;
+        right: 11rem;
         width: 7rem;
         height: 7rem;
+        opacity: 0.4;
+    }
+
+    #whatsapp:hover{
+        transform: scale(1.3);
+        transition: .9s;
+        cursor: pointer;
+        opacity: 1;
     }
 
     .form-group{
@@ -2242,13 +2607,8 @@ a{
         font-size: 1.8rem;
     }
 
-}
 
-@media screen and (min-width: 1281px) and (max-width: 1400px) {
 
-}
 
-@media screen and (min-width: 993px) and (max-width: 1280px) {
-   
 
 }
