@@ -49,17 +49,19 @@ projeto-partnership/
 
 ## Iniciando o ambiente de desenvolvimento
 1º - Com a pasta do projeto aberta no VsCode, acesse a pasta frontend através do terminal:
-comando: cd frontend
+cd frontend
 
 2º - Dentro da pasta frontend digite o seguinte comando:
-comando: npm run dev
+npm run dev
 
-## Fazendo Build do projeto em caso de atualizações
+## Fazendo Build do projeto para deploy
 1º - Com a pasta do projeto aberta no VsCode, acesse a pasta frontend através do terminal:
-comando: cd frontend
+cd frontend
 
 2º - Dentro da pasta frontend digite o seguinte comando:
-comando: npm run build
+npm run build
+
+3º - Será criada a pasta dist dentro do diretório selecionado e essa deve ser a pasta utilizada em caso de deploy manual
 
 ## Observações
 
