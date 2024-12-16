@@ -47,8 +47,6 @@ projeto-partnership/
 - npm: Gerenciador de pacotes para Node.js
 - Editor de Código: Visual Studio Code
 
-## Passos para configuração do fluxo de trabalho.
-
 ## Iniciando o ambiente de desenvolvimento
 1º - Com a pasta do projeto aberta no VsCode, acesse a pasta frontend através do terminal:
 comando: cd frontend
@@ -65,5 +63,5 @@ comando: npm run build
 
 ## Observações
 
-## As medidas de todo o projeto estão padronizadas em REM
-## Toda a responsividade do projeto foi feita dentro do arquivo main.css
+# As medidas de todo o projeto estão padronizadas em REM
+# Toda a responsividade do projeto foi feita dentro do arquivo main.css
