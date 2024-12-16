@@ -13,7 +13,7 @@ export function Experiencia(){
                     VIVA EXPERIÊNCIAS<br />FANTÁSTICAS
                 </p>
                 <img id='exp-top-bar' src={topBar} alt="barra" />
-                <p className='phrase1-copy'>Com o Partnership você pode fazer viagens emocionantes e colecionar<br />
+                <p className='phrase1-copy'>Com o Partnership você pode fazer viagens emocionantes, colecionar<br />
                     momentos incríveis, criar memórias e viver experiências únicas.<br /><br />
                 </p>
                 <img id='exp-bottom-bar' src={bottomBar} alt="barra" />

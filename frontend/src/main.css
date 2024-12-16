@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
 }
 
 html{
@@ -16,6 +15,7 @@ body{
     font-size: 100%;
     list-style-type: none;
     overflow-x: hidden;
+    background-color: #000000;
 }
 
 b{
@@ -168,7 +168,7 @@ a{
     }
 
     .manual-navigation{
-        bottom: 4.2rem;
+        bottom: 5.5rem;
         left: 39%;
     }
     
@@ -186,7 +186,7 @@ a{
     .navigation-auto{
         width: 10rem;
         height: 2.2rem;
-        bottom: 1.8rem;
+        bottom: 3rem;
         left: 40%;
     }
 
@@ -409,13 +409,10 @@ a{
 
     /* Contatos */
 
-    footer{
-        flex-direction: column;
-        padding: auto;
-    }
-
     #contatos{
         height: 110rem;
+        flex-direction: column;
+        padding: auto;
     }
 
     .contact-container{
@@ -434,8 +431,24 @@ a{
     }
 
     .copyright{
+        position: relative;
         top: 71rem;
-        left: 0rem;
+        left: 2.5rem;
+    }
+
+    #whatsapp{
+        opacity: 0.4;
+        bottom: 3rem;
+        right: 4.5rem;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #whatsapp:hover{
+        opacity: 1;
+        transform: scale(1.3);
+        transition: .9s;
+        cursor: pointer;
     }
 
 
@@ -474,9 +487,6 @@ a{
         left: 0.4rem ;
     }
     
-
-    
-
 }
 
 @media screen and (min-width: 351px) and (max-width: 555px) {
@@ -567,8 +577,8 @@ a{
     }
 
     .manual-navigation{
-        bottom: 4.5rem;
-        left: 41.5%;
+        bottom: 7rem;
+        left: 4%;
     }
     
     .manual-btn{
@@ -585,7 +595,7 @@ a{
     .navigation-auto{
         width: 10rem;
         height: 2.2rem;
-        bottom: 2rem;
+        bottom: 5rem;
         left: 41.5%;
     }
 
@@ -793,18 +803,31 @@ a{
 
      /* Contatos */
 
-     footer{
+    footer{
         flex-direction: column;
+        justify-content: center;
         padding: auto;
     }
 
     #contatos{
-        height: 110rem;
+        height: 120rem;
     }
 
     .contact-container{
-        left: 0.2rem;
-        bottom: -4rem;
+        text-align: center;
+        right: 2.5rem;
+        bottom: 6rem;
+        padding-left: 5rem;
+    }
+
+    #contact-bar{
+        position: relative;
+        left: -2.5rem;
+    }
+
+    #vamos{
+        position: relative;
+        left: -6rem;
     }
 
     .title-contact{
@@ -818,8 +841,23 @@ a{
     }
 
     .copyright{
-        top: 71rem;
-        left: 2.2rem;
+        top: 78rem;
+        left: 0.2rem;
+    }
+
+    #whatsapp{
+        opacity: 0.4;
+        bottom: 3rem;
+        right: 4.5rem;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    #whatsapp:hover{
+        opacity: 1;
+        transform: scale(1.3);
+        transition: .9s;
+        cursor: pointer;
     }
 
 
@@ -829,7 +867,7 @@ a{
         line-height: 1.5rem;
         position: relative;
         left: 0.1rem;
-        top: 2rem;
+        top: -2rem;
     }
 
     .small-group{
@@ -1339,5 +1377,878 @@ a{
             font-size: 2rem;
         }
 
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* header */
+
+    header{
+        justify-content: center;
+        align-items: start;
+        padding: 0;
+        height: 9.2rem;
+        
+    }
+
+    #logo-header{
+        width: 16.5rem;
+        height: auto;
+        left: 38%;
+        top: 0.8rem;
+
+    }
+    
+    li{
+        font-size: 1.7rem;
+        margin: 0.7rem;
+        position: relative;
+        top: 4.5rem;
+        right: 13%;
+    }
+
+    nav{
+        justify-content: space-around;
+        position: relative;
+        left: 0rem;
+    }
+
+    /* Home */
+
+    #home{
+        margin: auto;
+        padding: auto;
+        height: 70rem;
+    }
+
+    #information{ 
+        padding: auto;
+        left: 1rem;
+        bottom: 90rem;
+    }
+
+    #background{
+        display: none;
+        
+    }
+        
+    h1{
+        font-size: 7rem;
+    }
+
+    #sub-title{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        bottom: 1rem;
+        margin: 1rem 0;
+    }
+    
+    #frase{
+        font-size: 2.1rem;
+        margin-bottom: 3rem;
+        padding: auto;
+    }
+
+    #upper-bar{
+        bottom: 1.2rem;
+        left: 0.1rem;
+        width: 40rem;
+    }
+
+    #bottom-bar{
+        bottom: 0.8rem;
+        left: 0;
+        width: 55rem;
+    }
+
+    
+    #home-btn{
+        width: 20rem;
+        height: 5rem;
+        font-size: 2.2rem;
+        color: #000000;
+        border-radius: 0.2rem;
+        left: 0.1rem;
+    }
+
+    .slider{
+        height: 90vh;
+        
+    }
+
+    .manual-navigation{
+        bottom: 31.5rem;
+        left: 40.8%;
+    }
+    
+    .manual-btn{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .navigation-auto div{
+        background-color: #d9d9d9;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .navigation-auto{
+        width: 10rem;
+        height: 2.2rem;
+        bottom: 28rem;
+        left: 41.5%;
+    }
+
+    /* Sobre */
+
+    #sobre{
+        flex-direction: column;
+        align-items: center;
+        height: 170rem;
+        gap: 0;
+        padding: auto;
+    }
+
+    #about-left-content{
+        position: relative;
+        bottom: 7rem;
+        left: -1rem;
+    }
+
+    #about-right-content{
+        bottom: 1rem;
+        left:  0.1rem;
+    }
+
+    #about-title{
+        font-size: 5.5rem;
+        color: #AF9D34;
+        margin-bottom: 1.5rem;
+    }
+    
+    #comemoration-img{
+        width: 100%;
+        height: 35rem;
+    }
+
+    #about-btn{
+        width: 25rem;
+        height: 5rem;
+        font-size: 2.3rem;
+    }
+        
+    #about-copy{
+        font-size: 2rem;
+        margin-top: 1.9rem;
+        line-height: 3rem;
+    }
+
+    #phrase-1{
+        font-size: 2.2rem;
+    }
+
+    #phrase-2{
+        font-size: 2.3rem;
+    }
+
+    
+    /* Campanha */
+
+    #campanha{
+        display: block;
+        height: 195rem;
+        padding: auto;
+    }
+
+    #campanha-container{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+        gap: 0;
+        padding: auto;
+    }
+
+    .left-content{
+        margin-top: 2rem;
+    }
+
+    .middle-content{
+        margin: 6rem 0;
+        padding-right: 6rem;
+    }
+
+    .right-content{
+        padding-right: 9rem;
+    }
+
+    
+    #left-copy{
+        font-size: 2.5rem;
+    }
+
+    #middle-copy{
+        font-size: 2.5rem;
+    }
+
+    #right-copy{
+        font-size: 2.5rem;
+    }
+
+    #grupo-maxi{
+        margin-top: 3.5rem;
+        position: relative;
+        left: 1rem;
+    }
+
+    #left-bar{
+        left: 0.3rem;
+        width: 28rem;
+    }
+
+    #middle-bar{
+        left: 0.3rem;
+        width: 40rem;
+    }
+
+    #right-bar{
+        left: 0.2rem;
+        width: 27rem;
+    }
+
+    .middle-img{
+        width: 30rem;
+    }
+
+    h3{
+        font-size: 5rem;
+    }
+
+    /* Experiência */
+
+    #experiencia{
+        height: 150rem;
+        display: block;
+        padding: auto;
+        justify-content: none;
+    }
+
+    .exp-text-content{
+        position: relative;
+        left: 1rem;
+        bottom: -4rem;
+    } 
+
+    .exp-title{
+        font-size: 5rem;
+        line-height: 5.5rem;
+        width: 50rem;
+        height: 12rem;
+        margin-bottom: 0;
+    }
+    
+    .phrase1-copy{
+        font-size: 2.5rem;
+    }
+
+    .phrase2-copy{
+        font-size: 2.3rem;
+    }
+
+    #exp-top-bar{
+        width: 50rem;
+    }
+    
+    #exp-bottom-bar{
+        width: 60rem;
+    }
+
+    /* Slider */
+
+    .slider-exp{
+        margin: auto;
+        width: 60rem;
+        height: 65rem;
+        position: relative;
+        bottom: -15rem;
+        left: 0rem;
+        
+    }
+    
+    .slides-exp{
+        width: 60rem;
+        height: 65rem;
+    }
+    
+    .slide-first-exp img{
+        width: 60rem;
+        height: 65rem;
+    }    
+    
+    .slide-exp img{
+        width: 60rem;
+        height: 65rem;
+    }
+
+    .manual-navigation-exp{
+        width: 52rem;
+        margin-top: -5rem;
+        left: 4rem;
+    }
+    
+    .manual-btn-exp{
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .navigation-auto-exp{
+        bottom: 3rem;
+        left: 19rem;
+        
+    }
+
+    .navigation-auto-exp div{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+
+    /* Acelera */
+
+    #acelera{
+        height: 150rem;
+        background-color: #000000;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding: auto;
+    }
+
+    .right-content-text{
+        left: 1rem;
+        top: -65rem;
+    }
+
+    .aclr-right-title{
+        font-size: 6rem;
+        margin-bottom: 3rem;
+        width: 48rem;
+        line-height: 5.8rem;
+    }
+
+    .aclr-phrase1-copy{
+        margin-top: 8rem;
+        font-size: 2.1rem;
+        line-height: 4rem;
+    
+    }
+
+    #aclr-top-bar{
+        position: relative;
+        width: 40rem;
+        bottom: -5rem;
+    }
+
+    #aclr-bottom-bar{
+        width: 60rem;
+    }
+
+    
+    .left-img-group{
+        column-gap: 3rem;
+        row-gap: 1.5rem;
+        top: 71rem;
+    
+    }
+    
+    .img-group{
+        position: relative;
+        left: -2.8rem;
+        width: 32rem;
+        height: 22rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Contatos */
+
+    footer{
+        flex-direction: column;
+        padding: auto;
+    }
+
+    #contatos{
+        height: 120rem;
+    }
+
+    .contact-container{
+        left: 0.2rem;
+        bottom: -7rem;
+    }
+
+    #contact-bar{
+        width: 40rem;
+    }
+
+    .title-contact{
+        font-size: 7rem;
+        margin-bottom: 2rem;
+        letter-spacing: 0.6rem;
+        line-height: 6.5rem;
+    }
+
+    .icons{
+        font-size: 3rem;
+    }
+
+    #icon{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .copyright{
+        font-size: 2rem;
+        top: 70rem;
+        left: 9rem;
+    }
+
+    #whatsapp{
+        width: 10rem;
+        height: 10rem;
+    }
+
+
+    /* Form */
+
+    .form-group{
+        line-height: 1.5rem;
+        left: 0.1rem;
+        top: 5rem;
+    }
+
+    .small-group{
+        gap: 1.5rem;
+    }
+
+    .small-inputs{
+        width: 25rem;
+        height: 6.5rem;
+        font-size: 2rem;
+    }
+
+    .large-inputs{
+        width: 52rem;
+        height: 6.5rem;
+        font-size: 2rem;
+    }
+    
+    .message-input{
+        width: 52rem;
+        height: 15rem;
+        font-size: 2rem;
+    }
+    
+    #form-btn{
+        width: 50rem;
+        height: 6.5rem;
+        left: 0.8rem;
+        font-size: 2rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 1401px) {
+    
+    /* Header */
+
+    #logo-header{
+        width: 25rem;
+        height: auto;
+        margin-left: 3rem;
+    }
+
+    li{
+        right: 6rem;
+        font-size: 2.2rem;
+    }
+
+
+    /* Home */
+
+    #home{
+        margin: auto;
+        padding: auto;
+        height: 70rem;
+    }
+
+    #information{ 
+        padding: auto;
+        left: 5rem;
+        bottom: 90rem;
+    }
+
+    #background{
+        width: 75rem;
+        height: 45rem;
+        bottom: 134rem;
+        left: 8rem;
+    }
+
+    h1{
+        font-size: 8rem;
+        margin-bottom: 0.5rem;
+   }
+
+    #sub-title{
+        font-size: 4rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+     
+    #frase{
+        font-size: 2.2rem;
+        margin-top: 0.5rem;
+    }
+     
+    #home-btn{
+        width: 20rem;
+        height: 5rem;
+        font-size: 2.3rem;
+    }
+
+    .manual-navigation{
+        bottom: 20rem;
+        left: 45%;
+        width: 9rem;
+    }
+    
+    .manual-btn{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 5rem;
+    }
+
+    .navigation-auto div{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 5rem;
+    }
+    
+    .navigation-auto{
+        position: absolute;
+        width: 22rem;
+        bottom: 17rem;
+        left: 45%;
+    }
+
+    /* Sobre */
+
+    #about-left-content{
+        position: relative;
+        bottom: -4rem;
+    }
+    
+    #about-right-content{
+        bottom: -15rem;
+    }
+    
+    #comemoration-img{
+        width: 60rem;
+        height: 35rem;
+    }
+    
+    #about-btn{
+        width: 25rem;
+        height: 5rem;
+        font-size: 2.4rem;
+    }
+    
+    #about-title{
+        font-size: 5rem;
+        color: #AF9D34;
+    }
+    
+    #aboutBar{
+        position: relative;
+        bottom: -0.5rem;
+    }
+    
+    #about-copy{
+        font-size: 1.9rem;
+        margin-top: 2rem;
+        line-height: 3rem;
+    }
+    
+    #phrase-1{
+        font-size: 2.3rem;
+    }
+    
+    #phrase-2{
+        font-size: 2.5rem;
+        position: relative;
+        top: 1rem;
+    }    
+
+    /* Campanha */
+
+    h3{
+        font-size: 5rem;
+    }
+    
+    #campanha-container{
+        position: relative;
+        bottom: 3rem;
+        gap: 6rem;
+        margin-left: 3rem;
+    }
+    
+    .middle-img{
+        width: 35rem;
+        height: auto;
+        margin-top: 2.5rem;
+        position: relative;
+        top: 0.5rem;
+        right: 4rem;
+    }
+    
+    #grupo-maxi{
+        margin-top: 3.5rem;
+        position: relative;
+        right: 0;
+    }
+    
+    #middle-copy{
+        font-size: 2rem;
+        line-height: 4rem;
+        margin-top: 0rem;
+    }
+    
+    #middle-bar{
+        position: relative;
+        top: 0;
+        left: 0.1rem;
+        width: 25rem;
+    }
+    
+    #left-bar{
+        position: relative;
+        left: 0.5rem;
+        width: 25rem;
+    }
+    
+    #left-copy{
+        font-size: 2rem;
+        line-height: 4rem;
+        margin-top: 2.2rem;
+    }
+    
+    #right-bar{
+        position: relative;
+        left: 0.2rem;
+        width: 25rem;
+    }
+    
+    #right-copy{
+        font-size: 2.1rem;
+        margin-top: 1.2rem;
+        line-height: 3.5rem;
+    }
+
+
+    /* Experiência */
+
+    #experiencia{
+        height: 85rem;
+    }
+
+    .exp-text-content{
+        position: relative;
+        left: 2.5rem;
+        bottom: -5rem;
+     } 
+    
+    .exp-title{
+        font-size: 5rem;
+        line-height: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .phrase1-copy{
+        font-size: 2rem;
+        line-height: 3.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        top: 0.2rem;
+    
+    }
+    
+    .phrase2-copy{
+        font-size: 2.2rem;
+        margin-top: 3rem;
+        line-height: 4rem;
+    }
+    
+    #exp-top-bar{
+        position: relative;
+        bottom: 0.5rem;
+        left: 0.5rem;
+        width: 38rem;
+    }
+    
+    #exp-bottom-bar{
+        position: relative;
+        bottom: 2rem;
+        left: 0.4rem;
+        width: 67rem;
+    }
+
+    .slider-exp, .slides-exp, .slide-first-exp img, .slide-exp img{
+        width: 55rem;
+        height: 53rem;
+    }
+
+    .slider-exp{
+        bottom: -12rem;
+    }
+
+    .manual-navigation-exp{
+        margin-top: -4.2rem;
+    }
+    
+    .manual-btn-exp{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 5rem;
+    }
+
+    .navigation-auto-exp div{
+        background-color: #d9d9d9;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 5rem;
+    }
+    
+    .navigation-auto-exp{
+        width: 22rem;
+        bottom: 2.2rem;
+        left: 15rem;
+    }
+
+    /* Acelera */
+
+    #acelera{
+        height: 80rem;
+    }
+
+    .right-content-text{
+        position: relative;
+        left: 7rem;
+        bottom: -2rem;
+    }
+    
+    .aclr-right-title{
+        font-size: 5rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .aclr-phrase1-copy{
+        font-size: 2rem;
+        margin-top: 2.8rem;
+        line-height: 3.5rem;
+    
+    }
+    
+    .aclr-phrase2-copy{
+        font-size: 2.1rem;
+        margin-top: 1.5rem;
+        line-height: 3.8rem;
+    }   
+    
+    .left-img-group{
+        column-gap: 2.5rem;
+        row-gap: 2.5rem;
+        top: 8.3rem;
+        left: 3rem;
+    }
+    
+    .img-group{
+        width: 34rem;
+        height: 22rem;
+    }
+
+    /* Contatos */
+
+
+    .contact-container{
+        right: 5rem;
+        bottom: 9rem;
+    }
+    
+    .title-contact{
+        font-size: 6rem;
+        letter-spacing: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .icons{
+        font-size: 2.2rem;
+        padding-top: 2rem;
+        bottom: 3.5rem;
+    }
+
+    #icon{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .copyright{
+        font-size: 1.8rem;
+        top: 32rem;
+    }
+    
+    #whatsapp{
+        bottom: 7rem;
+        right: 6rem;
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .form-group{
+        line-height: 1.8rem;
+        position: relative;
+        left: 7rem;
+        top: 4rem;
+    }
+    
+    .small-inputs{
+        width: 25rem;
+        height: 6.8rem;
+        font-size: 1.8rem;
+    }
+    
+    .large-inputs{
+        width: 52.6rem;
+        height: 7rem;
+        font-size: 1.8rem;
+    }
+    
+    .message-input{
+        width: 52.8rem;
+        height: 15rem;
+        font-size: 1.8rem;
+    }
+    
+    #form-btn{
+        height: 6rem;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1400px) {
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+   
 
 }
